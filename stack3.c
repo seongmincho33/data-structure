@@ -51,7 +51,7 @@ element pop(StackType *s) {
 
 //피크함수
 element peek(StackType *s) {
-    if(is_empty()) {
+    if(is_empty(s)) {
         fprintf(stderr, "스택 공백 에러\n");\
         exit(1);
     }else {
