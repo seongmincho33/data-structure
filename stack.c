@@ -33,7 +33,7 @@ void push(element item){
 }
 
 //삭제함수
-void pop(){
+element pop(){
     if (is_empty()) {
         fprintf(stderr, "스택 공백 에러\n");
     }
